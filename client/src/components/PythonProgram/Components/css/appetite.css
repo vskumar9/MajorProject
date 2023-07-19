@@ -1,0 +1,29 @@
+.p-body {
+    padding: 20px;
+  }
+  
+  .section-number {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .headerlink {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul.simple {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Additional styles for specific elements can be added here */
+  

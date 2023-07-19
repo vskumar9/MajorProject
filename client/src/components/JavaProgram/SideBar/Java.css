@@ -1,0 +1,94 @@
+.j-divbar{
+    min-height: 100vh;
+    /* background: #ddd; */
+}
+.j-sidebar{
+    position:absolute;
+    top: 40px;
+    left: 0;
+    width: 250px;
+    height: 96%;
+    background: linear-gradient(-45deg , #f06215, #2e3e9c);
+    display: flex; 
+    flex-direction: column;
+    padding: 10px 5px 0 10px;
+    border-radius: 0px 50px 50px 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 80px;
+}
+header  h2{
+    font-size: 22px;
+    color: #fff;
+}
+.scrollbox{
+    overflow: auto;
+    padding-right: 10px;
+    visibility: hidden;
+}
+.scrollbox-inner, .scrollbox:hover{
+    visibility: visible;
+}
+.scrollbox-inner .p{
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.scrollbox-inner .p:hover{
+    color: black;
+    background: #fff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 10px;
+}
+footer h2{
+    font-size: 24px;
+    color: #fff;
+    padding: 0 ;
+    text-align: center;
+}
+
+
+.j-content{
+    position: relative;
+    width: calc(100% - 300px);
+    left: 280px;
+    top: 30px;
+    height: 100vh;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+.j-content h2{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 46px;
+    background: linear-gradient(-45deg, #2e3e9c, #f06215 , #2e3e9c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* .p-b{
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 500;
+} */
+
+.j-sub-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
